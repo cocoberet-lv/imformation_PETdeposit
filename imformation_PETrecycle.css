@@ -1,0 +1,286 @@
+html {
+    /* font-family: "Caveat", cursive; */
+    /* font-family: "Poppins", serif; */
+    font-family: "Noto Sans JP", serif;
+    /* font-family: "Dancing Script", serif; */
+    /* font-family: "Fraunces", serif; */
+    /* font-family: "Klee One", cursive; */
+}
+
+.Klee {
+    font-family: "Klee One", cursive;
+}
+
+.fraunce {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+
+.container {
+    width: 70%;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.web_link {
+    color: #333;
+
+}
+
+
+/* ヘッダー */
+header {
+    padding: 27px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.logo span {
+    color: #777e41;
+    font-family: "Dancing Script", serif;
+    opacity: 0.5;
+    font-size: 43px;
+}
+
+.header_menu li {
+    margin-left: 40px;
+}
+
+.header_menu li a {
+    transition: .3s;
+}
+
+.header_menu li a:hover {
+    color: #777e41a1;
+    transition: .3s;
+}
+
+/* スマホ対応 */
+@media only screen and (max-width:768px) {
+    header .container {
+        justify-content: center;
+    }
+
+    .header_menu li {
+        margin: 20px 16px 0;
+    }
+}
+
+#hero {
+    /* background-image: url(../images/blog1/blog1-3.jpg);　1場上の画像 */
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.hero_inner {
+    z-index: 1;
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.hero_inner p {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width:768px) {
+    #hero {
+        height: 160px;
+        border-radius: 15px;
+        margin-bottom: 65px;
+    }
+
+    .hero_inner p {
+        font-size: 20px;
+    }
+}
+
+/* blog */
+#blog {
+    margin-bottom: 120px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #777e41;
+    margin-bottom: 40px;
+}
+
+#blog h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+#blog p a {
+    width: 70%;
+    padding: 20px 0;
+
+    text-decoration-line: underline;
+    color: blue;
+}
+
+#blog p a:hover {
+    color: crimson;
+    transition: .3s;
+
+}
+
+.blog-2 {
+    width: 48%;
+}
+
+.text {
+    line-height: 2;
+}
+
+
+.column-40 {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column-40 p img {
+    border-radius: 20px;
+
+}
+
+.column-55 {
+    width: 60%;
+}
+
+.column-100 {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .title {
+        margin-bottom: 30px;
+    }
+
+    #diary h3 {
+        font-size: 26px;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+
+    .blog-2 {
+        width: 100%;
+    }
+
+    .text {
+        line-height: 1.7;
+        font-size: 15px;
+    }
+
+    .column-40 {
+        width: 70%;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .column-55 {
+        width: 100%;
+    }
+
+
+    .date {
+        font-size: 46px;
+        top: 4px;
+        left: 65px;
+    }
+}
+
+
+/* contact */
+#contact {
+    margin-bottom: 60px;
+}
+
+
+#contact dl {
+    max-width: 900px;
+}
+
+#contact dt {
+    width: 30%;
+    padding: 20px 0;
+    font-weight: 500;
+    border-bottom: solid 1px #777e41;
+}
+
+#contact dd {
+    width: 70%;
+    padding: 20px 0;
+    border-bottom: solid 1px #777e41;
+    text-decoration-line: underline;
+    color: blue;
+}
+
+#contact dd:hover {
+    color: crimson;
+    transition: .3s;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    #contact dl {
+        font-size: 13px;
+    }
+
+    .title {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+/* フッター */
+footer {
+    text-align: center;
+    margin: 90px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 40px;
+}
