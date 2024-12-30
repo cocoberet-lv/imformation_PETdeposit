@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coco'sラトビア滞在記</title>
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="imformation_PETrecycle.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Klee+One&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Dancing+Script:wght@400..700&family=Noto+Sans+JP&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container flex Klee">
+            <a href="" class="logo">
+                <span>Coco's</span> ラトビア滞在記
+            </a>
+            <nav>
+                <!-- menuを書くタグ -->
+                <ul class="header_menu flex fraunce">
+                    <li><a href="#blog">information</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+
+
+        <!-- diaryのリンクに繋がっている -->
+        <section id="blog" class="container">
+            <h2 class="title fraunce">information </h2>
+            <div class="flex">
+                <div class="column-40">
+                    <p><img src="PETrecycle.img/PETrecycle8.jpg" alt="" width="90%" height="90%" loading="lazy">
+                    </p>
+                </div>
+                <div class="column-55">
+                    <p class="text">
+                        ラトビアでは、特定のマークが付いているペットボトルに対して0.1ユーロのデポジット（保証金）が課されています。ペットボトルを返却すると、このデポジットが返金される仕組みです。
+                        返却時の注意点として、ペットボトルは潰さないことがルールとなっています。また、蓋をつけたまま返却するのが望ましいとされています。
+
+                    </p>
+                </div>
+            </div>
+            <div class="flex">
+
+                <div class="column-100">
+                    <p class="text">
+                        ＜ペットボトル回収場所の検索方法＞<br>
+                        まずは、以下のウェブページで近くのペットボトル回収場所を探します。<br>
+                        <a href="https://depozitapunkts.lv/en"> Beverage Packaging Deposit System in Latvia</a>
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle4.png" alt="" width="60%" height="20%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            画像に示されている地図までスクロールして、右下にある青の○の部分を押します。すると、位置情報の使用許可を求める画面が表示されるので、「許可」を選択します。
+                        </p>
+                    </div>
+                </div class="flex">
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle6.png" alt="" width="70%" height="30%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            地図中央に紺色の縁で囲まれた緑色の○が現在地を示し、近くのペットボトル回収スポットが紺色のマークで表示されます。回収スポットをクリックすると、お店の名前が表示されるので、行きたい場所を選んでください。
+                        </p>
+                    </div>
+                </div class="flex">
+
+                <div class="column-100">
+                    <p class="text">
+                        ＜ペットボトル回収機の使い方＞
+                    </p>
+                </div>
+
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle1.jpg" alt="" width="70%" height="30%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            まず、機械の画面に表示される言語選択画面から使用する言語を選びます。
+                        </p>
+                    </div>
+                </div class="flex">
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle2.jpg" alt="" width="60%" height="30%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            次に、ペットボトルを機械に入れます。ペットボトルは自動で吸い込まれますので、軽く押し入れるだけでOKです。
+                        </p>
+                    </div>
+                </div class="flex">
+
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle7.jpg" alt="" width="60%" height="30%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            すべてのペットボトルを投入してから、画面上の「寄付（Donate）」 か 「支払い（Payout）」 を選びます。
+                        </p>
+                    </div>
+                </div class="flex">
+                <div class="flex">
+                    <div class="column-40">
+                        <p><img src="PETrecycle.img/PETrecycle3.jpg" alt="" width="60%" height="30%" loading="lazy">
+                        </p>
+                    </div>
+                    <div class="column-55">
+                        <p class="text">
+                            支払いを選んだ場合、バーコード付きのレシートが発行されます。このレシートをお会計時に提示することで、その金額が利用可能になります。
+                        </p>
+                    </div>
+                </div class="flex">
+
+
+        </section>
+
+
+        <section id="contact" class="container">
+            <h2 class="title fraunce">Contact</h2>
+            <dl class="flex">
+                <dt>facebook</dt>
+                <dd><a
+                        href="https://www.facebook.com/people/%E7%94%B0%E4%B8%AD-%E3%81%93%E3%81%93/pfbid0FViRCd9HxCV53qR3XQiNrYRTnrELY49cHdK7jqtLC8c8LygEo9txNQjcKVJRw9Ynl/">coco.facebook</a>
+                </dd>
+                <dt>x(旧twitter)</dt>
+                <dd><a href="https://x.com/kpu_cocoT" target="_blank">coco.x</a></dd>
+            </dl>
+        </section>
+
+        <div class="flex"> <!--画像の大きさがバラバラなのでcssで背景として入れる-->
+            <div class="column-a"></div>
+            <div class="column-b"></div>
+            <div class="column-c"></div>
+            <div class="column-d"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="" class="logo Klee">
+            <span>Coco's</span> ラトビア滞在記
+        </a>
+        <div class="copyright">@ coco's latvia diary</div>
+    </footer>
+</body>
+
+</html>
